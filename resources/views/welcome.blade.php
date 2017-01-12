@@ -9,7 +9,7 @@
 
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h1>Bangladesh Most Secured Bank</h1>
+                        <h1>Bangladesh's Most Secured Bank</h1>
                         <p class="lead">Biometric secruity keeps your money safe!</p>
                     </div>
                 </div>
@@ -17,7 +17,7 @@
 
                 <div class="row">
                     <div class="col-lg-8">
-                        <img src="http://localhost/banking_security\cover.jpg" class="img-responsive"
+                        <img src="/banner.jpg" class="img-responsive"
                              alt="Responsive image">
                     </div>
                     <div class="col-lg-4">
