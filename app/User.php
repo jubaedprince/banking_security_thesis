@@ -18,6 +18,12 @@ class User extends Authenticatable
         'name', 'email', 'password', 'national_id', 'mobile_number', 'address', 'date_of_birth'
     ];
 
+    protected $appends = ['balance'];
+
+    public function getBalanceAttribute()
+    {
+        return $this->bankAccount->balance;
+    }
 
     /**
      * The attributes that should be hidden for arrays.

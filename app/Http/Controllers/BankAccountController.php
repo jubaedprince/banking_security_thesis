@@ -58,8 +58,20 @@ class BankAccountController extends Controller
             return response()->json(['success'=>true]);
         }
 
+    }
 
+    public function me(Request $request)
+    {
+        $user = User::where('email', $request->email)->first();
 
+        if(isset($user)){
+            return response()->json([
+                'data' => $user
+            ]);
+        }
+        return response()->json([
+            'error' => true,
+        ]);
 
     }
 }

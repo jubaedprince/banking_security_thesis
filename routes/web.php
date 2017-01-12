@@ -30,3 +30,4 @@ Route::get('/admin/dashboard', 'BankAccountController@adminDashboard');
 
 
 Route::get('/send-money', 'BankAccountController@sendMoney');
+Route::get('/me', 'BankAccountController@me');
